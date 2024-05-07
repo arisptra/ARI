@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data Klasemen Piala Asia U-23 Qatar Group A</title>
+</head>
+<body>
+    <h2>Input Data Klasemen Piala Asia U-23 Qatar Group A</h2>
+    <form action="process.php" method="post">
+        <label for="country">Nama Negara:</label>
+        <select name="country" id="country">
+            <option value="Qatar U-23">Qatar U-23</option>
+            <option value="Indonesia U-23">Indonesia U-23</option>
+            <option value="Australia U-23">Australia U-23</option>
+            <option value="Yordania U-23">Yordania U-23</option>
+        </select><br><br>
+        <label for="matches">Jumlah Pertandingan (P):</label>
+        <input type="number" name="matches" id="matches" required><br><br>
+        <label for="wins">Jumlah Menang (M):</label>
+        <input type="number" name="wins" id="wins" required><br><br>
+        <label for="draws">Jumlah Seri (S):</label>
+        <input type="number" name="draws" id="draws" required><br><br>
+        <label for="losses">Jumlah Kalah (K):</label>
+        <input type="number" name="losses" id="losses" required><br><br>
+        <label for="points">Jumlah Poin:</label>
+        <input type="number" name="points" id="points" required><br><br>
+        <label for="operator">Nama Operator:</label>
+        <input type="text" name="operator" id="operator" required><br><br>
+        <label for="nim">NIM Mahasiswa:</label>
+        <input type="text" name="nim" id="nim" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
